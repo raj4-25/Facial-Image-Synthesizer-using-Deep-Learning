@@ -98,22 +98,22 @@ if captured_image is not None:
 
 # Request payload
 data = {
-  "aaa":1,
+  "aaa":0,
   "blink": 0,
-  "eee": 1,
+  "eee": 0,
   "eyebrow":1,
   "image": image_base64, 
   "image_format": "png",
   "image_quality": 95,
-  "pupil_x": 2,
-  "pupil_y": -1,
+  "pupil_x": 0,
+  "pupil_y": 0,
   "rotate_pitch": 0,
-  "rotate_roll": 1,
-  "rotate_yaw": -2,
+  "rotate_roll": 0,
+  "rotate_yaw": 0,
   "sample_parts": "OnlyExpression",
-  "smile": 2,
-  "wink": 3,
-  "woo": 1
+  "smile": 0,
+  "wink": 0,
+  "woo": 0
 }
 
 headers = {'x-api-key': api_key}
