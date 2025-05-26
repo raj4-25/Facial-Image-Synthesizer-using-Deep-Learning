@@ -5,6 +5,7 @@ conveying emotions and social cues. The advent of artificial intelligence (AI) a
 opened new frontiers in recognizing and synthesizing facial expressions. This project presents a real-time 
 facial expression manipulation system that captures live images from a webcam, processes them via a 
 third-party expression editor API (Segmind), and produces visually altered facial expressions.
+
 The system is designed using modular Python scripts for individual emotions—angry, happy, sleepy, and 
 surprised—and is supplemented with a desktop-based GUI launcher for usability. Captured images are 
 encoded in base64 and transmitted with parametric configurations to control specific facial features such 
