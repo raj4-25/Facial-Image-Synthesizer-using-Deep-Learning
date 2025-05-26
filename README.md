@@ -5,6 +5,12 @@ conveying emotions and social cues. The advent of artificial intelligence (AI) a
 opened new frontiers in recognizing and synthesizing facial expressions. This project presents a real-time 
 facial expression manipulation system that captures live images from a webcam, processes them via a 
 third-party expression editor API (Segmind), and produces visually altered facial expressions.
+The system is designed using modular Python scripts for individual emotions—angry, happy, sleepy, and 
+surprised—and is supplemented with a desktop-based GUI launcher for usability. Captured images are 
+encoded in base64 and transmitted with parametric configurations to control specific facial features such 
+as mouth shape, eyebrow positioning, eye movements, and head orientation. The API responds with a 
+processed image reflecting the desired emotional state, which is then stored and optionally displayed to 
+the user. 
 
 ## Facial Landmark Detection using OpenCV:  
 Finding particular important areas on a person's face, like the corners of their eyes, nose, 
@@ -53,3 +59,5 @@ python
 cv2.imshow('Modified Expression', synthetic_image) 
 7. Loop or Terminate 
 Repeat steps 2–6 in a loop or terminate based on user input.
+
+
